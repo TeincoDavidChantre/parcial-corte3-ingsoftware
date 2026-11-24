@@ -268,7 +268,7 @@ const messages = {
 };
 let language = 'es';
 try {
-  const saved = localStorage.getItem('reservet.lang');
+  const saved = localStorage.getItem('reservet.language');
   if (Object.hasOwn(messages, saved)) language = saved;
 } catch {
   /* Storage may be disabled. */
